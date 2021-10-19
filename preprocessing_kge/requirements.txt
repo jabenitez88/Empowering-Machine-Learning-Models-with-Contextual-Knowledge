@@ -1,0 +1,10 @@
+requests==2.25.1
+pandas==1.2.2
+spacy==3.0.5
+matplotlib==3.3.4
+numpy==1.19.5
+kneed==0.7.0
+params==0.9.0
+pyrdf2vec==0.2.3
+qwikidata==0.4.0
+scikit_learn==1.0
