@@ -1,26 +1,27 @@
 # Combining-Knowledge-Graphs-and-Deep-Learning-for-categorizing-Tweets
-Combining Knowledge Graphs and Deep Learning for categorizing Tweets
+Empowering Machine Learning Models with Contextual Knowledge for Enhancing the Detection of Eating Disorders in Social Media Posts
 
 ## Table of contents
 
 
 ## Authors
 
-* José Alberto Benítez Andrades - jbena@unileon.es - <a href="https://orcid.org/0000-0002-4450-349X" rel="nofollow" target="_blank">0000-0002-4450-349X</a>
+* José Alberto Benítez-Andrades - jbena@unileon.es - <a href="https://orcid.org/0000-0002-4450-349X" rel="nofollow" target="_blank">0000-0002-4450-349X</a>
+* María Teresa García-Ordás - mgaro@unileon.es - <a href="https://orcid.org/0000-0002-3796-3949" target="_blank">0000-0002-3796-3949</a>
+* Mayra Russo - mrusso@l3s.de - <a href="https://orcid.org/0000-0001-7080-6331" rel="nofollow" target="_blank">0000-0001-7080-6331</a>
 * Ahmad Sakor - Ahmad.Sakor@tib.eu - <a href="https://orcid.org/0000-0001-8007-7021" rel="nofollow" target="_blank">0000-0001-8007-7021</a>
 * Luis Daniel Fernandes Rotger - luis@bakkenbaeck.no - 
-* Mayra Russo Botero - mrusso@l3s.de - <a href="https://orcid.org/0000-0001-7080-6331" rel="nofollow" target="_blank">0000-0001-7080-6331</a>
 * Maria-Esther Vidal - maria.vidal@tib.eu - <a href="https://orcid.org/0000-0003-1160-8727" rel="nofollow" target="_blank">0000-0003-1160-8727</a> 
 
 ## Hypothesis and workflow
 
 Our hypothesis is based on the assumption that making use of semantic information obtained through the exploitation of knowledge graphs improves the prediction of machine learning and deep learning models in text classification.
 
-<img src="https://jabenitez.com/kge/motivating-example.png" width="700px" />
+<img src="https://jabenitez.com/kge/motivating-example-v2.png" width="800px" />
 
 Starting from a set of textual data, it is possible to obtain the entities contained in them (thanks to FALCON 2.0 tool [[1]](https://doi.org/10.1145/3340531.3412777) the identifier of these entities in Wikidata and the corresponding embeddings using RDF2Vec).
 
-<img src="https://jabenitez.com/kge/workflow.png" width="700px" />
+<img src="https://jabenitez.com/kge/architecture.png" width="800px" />
 
 In this research is presented the accession of semantic data enrichment obtained by knowledge graphs exploitation (KGE) to a set of texts on Eating Disorders (EDs) to obtain text classification models by applying machine learning and deep learning techniques. We make use of a proprietary dataset composed of 2,000 texts obtained from Twitter related to EDs. 
 
@@ -30,7 +31,7 @@ Subsequently, a manual labelling of the data into 4 different binary categories 
 
 ## Results
 
-<img src="https://jabenitez.com/kge/results.png" width="600px" />
+<img src="https://jabenitez.com/kge/results-v2.png" width="800px" />
 
 Results obtained in the 10 different models applied to the textual data and to the data with knowledge graph exploitation (KGE) in the 4 labelled categories.
 
@@ -43,7 +44,6 @@ The biggest difference in performance between the model trained with the texts a
 There are only two cases in which the F<sub>1</sub> metric applied to the KGE data is the same or worsens with respect to that obtained in the text data, in Category III in the CamemBERT and TweetBERT models.
 
 
-## How to replicate experiments?
 
 
 
