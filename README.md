@@ -1,5 +1,4 @@
-# Combining-Knowledge-Graphs-and-Deep-Learning-for-categorizing-Tweets
-Empowering Machine Learning Models with Contextual Knowledge for Enhancing the Detection of Eating Disorders in Social Media Posts
+# Empowering Machine Learning Models with Contextual Knowledge for Enhancing the Detection of Eating Disorders in Social Media Posts
 
 ## Table of contents
 
